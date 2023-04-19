@@ -53,11 +53,18 @@ input {
 
 button {
     outline: none;
+    color: #fff;
+    cursor: pointer;
     border: none;
     padding: 18px 35px;
-    background: rgb(178, 41, 64);
+    background: #0548b3;
     border-radius: 40px;
     font-size: 16px;
+    font-weight: 800;
+}
+
+button:hover {
+    background: #042559;
 }
 
 ul li {
@@ -98,9 +105,12 @@ span {
     width: 60px;
     height: 30px;
     font-size: 20px;
+    font-weight: 800;
 }
 
 span:hover {
-    background-color: gray;
+    background-color: #801804;
+    color: #fff;
     border-radius: 20px;
+    padding: 3px 4px;
 }
